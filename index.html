@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boldog Szülinapot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ceviche+One&family=Pacifico&family=Protest+Revolution&display=swap" rel="stylesheet">	
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Boldog szülinapot a Viplak családnak!</h1>		
+        <p>
+        </p>
+        <button onclick="playSong()">Köszöntő dal lejátszása</button>
+        <audio id="song" src="bd13x.mp3"></audio>
+    </div>
+
+    <script>
+        function playSong() {
+            const song = document.getElementById('song');
+            song.play();
+        }
+    </script>
+</body>
+</html>

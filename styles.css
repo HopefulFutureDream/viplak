@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url('bd.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); /* Fekete átlátszó háttér */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Max szélesség */
+}
+
+h1 {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;	
+    font-size: 4em;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+button {
+    font-style: bold;
+	
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff0000; /* Gomb színe */
+    background-color: rgba(0, 0, 0, 0.4); /* Fekete átlátszó háttér */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:  #880808; /* Gomb színváltás hoverre */
+}
